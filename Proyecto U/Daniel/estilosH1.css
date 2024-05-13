@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+h2{
+    font: bold 14px sans-serif;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+
+body {
+    text-align: center;
+    background-image: url("imagenes/fondo.jpg");
+    background-size:cover;
+}
+
+.agrupar{
+    width: 1000px;
+    background: transparent;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.header{
+    background: skyblue;
+    border: 1px solid #999999;
+    padding: 10px;
+}
+.header h1{
+    text-align: left;
+}
+
+.menu{
+    background: #ccc;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 15px sans-serif;
+    display: inline-block;
+}
+
+.seccion{
+    margin-top: 20px;
+    width: 1000px;
+}
+
+article{
+    background: whitesmoke;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+
+time{
+    color: blue;
+
+}
+
+
+.pie{
+    clear: both;
+    padding: 15px;
+    background: #2d3436;
+    color: white;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 15px auto;
+}
